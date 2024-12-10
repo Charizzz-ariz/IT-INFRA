@@ -1,0 +1,210 @@
+<!DOCTYPE html> 
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        .resume {
+            width: 800px;
+            background-color: white;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .header {
+            background-color: #1a3550;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .header h1 {
+            margin: 0;
+            font-size: 36px;
+        }
+
+        .header p {
+            margin: 5px 0;
+            font-size: 18px;
+        }
+
+        .content {
+            display: flex;
+            margin-top: 20px;
+        }
+
+        .left-column {
+            width: 60%;
+            padding-right: 20px;
+            border-right: 2px solid #e0e0e0;
+        }
+
+        .right-column {
+            width: 40%;
+            padding-left: 20px;
+        }
+
+        h2 {
+            color: #1a3550;
+            border-bottom: 5px solid #e0e0e0;
+            padding-bottom: 5px;
+        }
+
+        .section {
+            margin-bottom: 20px;
+        }
+
+        .contact-info {
+            font-size: 14px;
+            line-height: 1.2;
+        }
+
+        .contact-info ul {
+            padding: 0;
+            margin: 0;
+            list-style: none;
+        }
+
+        .contact-info li {
+            display: flex;
+            align-items: center;
+            margin-bottom: 4px;
+            overflow-wrap: break-word;
+        }
+
+        .contact-info li span {
+            margin-right: 8px;
+        }
+
+        .skills li, .awards li {
+            margin-bottom: 5px;
+            list-style: none;
+        }
+
+        .profile-img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .sub-section h3 {
+            font-size: 18px;
+            margin: 10px 0 5px;
+            color: #333;
+        }
+
+        .sub-section p {
+            margin: 5px 0;
+            color: #555;
+        }
+
+        .highlight {
+            font-weight: bold;
+        }
+
+        .personal-profile, .other-sections {
+            text-align: center;
+            color: black;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="resume">
+
+        <div class="header">
+            <h1>Chariz D. Abanel</h1>
+            <p>Bachelor of Science in Information Systems</p>
+        </div>
+
+        <div class="content">
+
+            <div class="left-column">
+                <div class="section personal-profile">
+                    <h2>Personal Profile</h2>
+                    <p>I am an Information Systems (IS) graduate with comprehensive knowledge in C++ and HTML, complemented by experience in graphics, computer hardware servicing, and web development.</p>
+                </div>
+
+                <div class="section">
+                    <h2>Work Experience</h2>
+                    <div class="sub-section">
+                        <h3>IT Intern</h3>
+                        <p><em>Tech Solutions Inc. | October 2024 - Present</em></p>
+                        <p>Developed a web application using HTML, CSS, and JavaScript, resulting in a 30% increase in user engagement.</p>
+                    </div>
+                </div>
+
+                <div class="section">
+                    <h2>Education</h2>
+                    <div class="sub-section">
+                        <h3>Primary: Ponso South Elementary School (2014)</h3>
+                        <p><em>Ponso, Polangui, Albay</em></p>
+                        <h3><span class="highlight">Secondary:</span> Ponso National High School (2018)</h3>
+                        <p><em>Ponso, Polangui, Albay</em></p>
+                        <h3><span class="highlight">Tertiary:</span> Bicol University Polangui Campus (2023)</h3>
+                        <p><em>Polangui, Albay</em></p>
+                    </div>
+                </div>
+
+                <div class="section">
+                    <h2>References</h2>
+                    <p>Jane Doe, IT Manager, Tech Solutions Inc. | Phone: (123) 456-7890 | jane.doe@techsolutions.com</p>
+                </div>
+            </div>
+
+            <div class="right-column">
+                <div class="section">
+    <img src="https://assets.onecompiler.app/42x9k4esw/42x9k6359/IMG_20241027_092944.jpg" alt="Chariz Abanel Photo" style="width: 100%; height: auto; border-radius: 10px;">
+</div>
+
+
+                <div class="section contact-info">
+                    <h2>Contact Me At</h2>
+                    <ul>
+                        <li><span>📞</span>09631428172</li>
+                        <li><span>📧</span>charizabanel@gmail.com</li>
+                        <li><span>🌐</span>www.greatsite.com</li>
+                        <li><span>🏠</span>033 Mendez Polangui Albay</li>
+                    </ul>
+                </div>
+
+                <div class="section skills">
+                    <h2>Skills</h2>
+                    <ul>
+                        <li>•Encoder</li>
+                        <li>•Computer Literate</li>
+                        <li>•Adaptability</li>
+                        <li>•Active Listening</li>
+                    </ul>
+                </div>
+
+                <div class="section awards other-sections">
+                    <h2>Awards Received</h2>
+                    <ul>
+                        <li><strong>Computer Literacy Program Certificate</strong>  
+                            <br>Global Site for I.T. Studies, Ligao Branch (2018) - Completed coursework in Adobe Photoshop, programming, computer hardware servicing, and web development.</li>
+                        <li><strong>Consistent Honor Student</strong> (Elementary and High School)</li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
